@@ -1,0 +1,195 @@
+body
+{
+    background-color: #000000;
+}
+
+a
+{
+    color: #55FFFF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    cursor: pointer
+}
+
+hr
+{
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.container
+{
+    width:350px;
+    margin: 0 auto;
+}
+
+.header
+{
+    text-align: center;
+    font-family: Verdana;
+    color: #ffffff;
+}
+
+.game-container
+{
+    height:400px;
+    margin-top:10px;
+}
+
+.grid
+{
+    float:left;
+    background-color: #333333;
+    box-shadow: 0 0 10px 2px #444444;
+    border:1px solid #666666;
+}
+
+.next-canvas
+{
+}
+
+.controls-container
+{
+    width:130px;
+    float:right;
+    height:100%;
+}
+
+.level-container
+{
+    background-color: #000000;
+    box-shadow: 0 0 10px 2px #333333;
+    text-align: center;
+    color: #FF0000;
+    font-size: 25px;
+    border: 1px solid #555555;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.level-container::before
+{
+    content: "Level";
+    width: 100%;
+    float: right;
+    color: #555555;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.score-container
+{
+    background-color: #000000;
+    box-shadow: 0 0 10px 2px #333333;
+    text-align: center;
+    color: #FF0000;
+    font-size:25px;
+    border:1px solid #555555;
+    font-weight: bold;
+    padding:5px;
+}
+
+.score-container::before
+{
+    content: "Lines Cleared";
+    width:100%;
+    float:right;
+    color: #555555;
+    font-size:15px;
+    font-weight: normal;
+}
+
+.next-container
+{
+    background-color: #000000;
+    box-shadow: 0 0 10px 2px #333333;
+    text-align: center;
+    color: #FF0000;
+    font-size:25px;
+    border:1px solid #555555;
+    font-weight: bold;
+    padding:5px;
+    margin-top: 10px;
+}
+
+.next-container::before
+{
+    content: "Next Piece";
+    width:100%;
+    float:right;
+    color: #555555;
+    font-size:15px;
+    font-weight: normal;
+}
+
+.ai-button, .reset-button, .bag-button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #777777;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #777777;
+    box-shadow:inset 0px 1px 0px 0px #777777;
+    background-color:#111111;
+    -webkit-border-top-left-radius:3px;
+    -moz-border-radius-topleft:3px;
+    border-top-left-radius:3px;
+    -webkit-border-top-right-radius:3px;
+    -moz-border-radius-topright:3px;
+    border-top-right-radius:3px;
+    -webkit-border-bottom-right-radius:3px;
+    -moz-border-radius-bottomright:3px;
+    border-bottom-right-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-bottom-left-radius:3px;
+    text-indent:0;
+    border:1px solid #333333;
+    display:inline-block;
+    color: #e9e9ff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:40px;
+    line-height:40px;
+    width:100%;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #888888;
+}
+
+.ai-button:hover, .reset-button:hover, .bag-button:hover {
+    background-color:#373737;
+}
+
+.ai-button:active, .reset-button:active, .bag-button:active {
+    position:relative;
+    top:1px;
+}
+
+.ai-button{
+    margin-top: 15px;
+}
+
+.bag-button {
+    margin-top: 10px;
+}
+
+.reset-button{
+    margin-top: 10px;
+}
+
+.footer
+{
+    font-family: Verdana;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.fb-like {
+    vertical-align: top;
+}
+.fb_iframe_widget span {
+    vertical-align: text-top !important;
+}

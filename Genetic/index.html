@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Genetic Tetris AI</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="fb-root"></div>
+<div class="container">
+    <h1 class="header">Genetic Tetris AI</h1>
+
+    <div class="game-container">
+        <canvas width="200px" height="400px" id="grid-canvas" class="grid"></canvas>
+        <div class="controls-container">
+            <div id="level-container" class="level-container">0</div>
+            <div id="score-container" class="score-container">0</div>
+            <div id="next-container" class="next-container">
+                <canvas id="next-canvas" class="next-canvas" width="80px" height="80px"></canvas>
+            </div>
+            <a id="ai-button" class="ai-button">AI: ON</a>
+            <a id="bag-button" class="bag-button">Official</a>
+            <a id="reset-button" class="reset-button">Reset</a>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <p>Original design and inspiration by (credit to) <a href="http://codemyroad.wordpress.com" target="#">Yiyuan Lee</a>. Redesign and edits made by Josiah Bell.</p>
+    </div>
+</div>
+<audio autoplay loop><source src="sounds/TetMix.mp3" type="audio/mpeg" /></audio>
+<script src="js/polyfill.js"></script>
+<script src="js/grid.js"></script>
+<script src="js/tetromino.js"></script>
+<script src="js/timer.js"></script>
+<script src="js/stopwatch.js"></script>
+<script src="js/game.js"></script>
+<script src="js/tetrominoBag.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/tuner.js"></script>
+<script>
+    var game = new Game();
+</script>
+</body>
+</html>
